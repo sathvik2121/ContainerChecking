@@ -29,9 +29,7 @@ import com.microsoft.azure.storage.blob.*;
 public class ContainerCheck {
 
 	public static void main(String[] args) throws InvalidKeyException, DocumentException, URISyntaxException, StorageException, IOException, ParseException   {
-		ContainerCheck ob1=new ContainerCheck();
-		String message2=ob1.run();
-		System.out.println(message2);
+		
 		SpringApplication.run(ContainerCheck.class, args);
 	}
 
